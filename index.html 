@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+</head>
+<body>
+  <div id="container">
+    <!-- Brand of website -->
+    <header>My Web Site Brand</header>
+    
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page2.html">Page 2</a></li>
+        <li><a href="page3.html">Page 3</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Main Content -->
+    <main>
+      <h1>Welcome to My Website</h1>
+      <p>This is the homepage with an image and form.</p>
+      <img src="images/example.jpg" alt="Description of Image">
+      
+      <!-- Signup Form -->
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Sign Up</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone"><br>
+          <label>Gender:</label>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <label for="contact">Preferred Contact:</label>
+          <select id="contact" name="contact">
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+          </select><br>
+          <label for="comments">Comments:</label><br>
+          <textarea id="comments" name="comments"></textarea><br>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+    
+    <!-- Footer -->
+    <footer>&copy; Copyright 2020</footer>
+  </div>
+</body>
+</html>

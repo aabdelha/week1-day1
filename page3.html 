@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 3</title>
+</head>
+<body>
+  <div id="container">
+    <!-- Brand of website -->
+    <header>My Web Site Brand</header>
+    
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page2.html">Page 2</a></li>
+        <li><a href="page3.html">Page 3</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Main Content -->
+    <main>
+      <h1>Welcome to Page 3</h1>
+      <p>This is the third page of the website. Below is an example of a table.</p>
+      
+      <!-- Table -->
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Footer Text</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    
+    <!-- Footer -->
+    <footer>&copy; Copyright 2020</footer>
+  </div>
+</body>
+</html>
